@@ -6,4 +6,4 @@ def de_c_a_f(celsius):
 celsius_u = float(input("Ingrese la temperatura en Cº: "))
 fahrenheit = de_c_a_f(celsius_u)
 
-print(fahrenheit)
+print(f"La temeperatura ingresada {celsius_u}ºC a Fahrenheit es: {fahrenheit}ºF")
